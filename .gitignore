@@ -27,21 +27,14 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-# IntelliJ IDEA
+
+# Ignore IDE settings
 .idea/
 *.iml
 
-# Output directory
-/out/
-build/
-target/
+# Ignore compiled files
+*.class
 
-# OS-specific
+# Ignore OS-specific files
 Thumbs.db
 
-# Logs
-*.log
-
-# Others
-*.class
-*.jar
