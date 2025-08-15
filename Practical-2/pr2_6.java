@@ -1,3 +1,4 @@
+// 6. Write a Java program to check if the given number is a perfect number or not. (A number is perfect if sum of its divisors excluding itself is equal to the number.) Example: 28 → 1+2+4+7+14 = 28
 public class pr2_6 {
     public static void main(String[] args) {
         int num = Integer.parseInt(args[0]);
