@@ -1,3 +1,4 @@
+// 1. Write a Java program to take three numbers as command line arguments and print the maximum number.
 public class pr2_1 {
     public static void main(String[] args) {
         int num1 = Integer.parseInt(args[0]);
