@@ -1,3 +1,4 @@
+// 4. Write a Java program to check whether a given number is even or odd using a command line argument.
 public class pr2_4 {
     public static void main(String[] args) {
         int num = Integer.parseInt(args[0]);

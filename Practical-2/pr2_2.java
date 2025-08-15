@@ -1,3 +1,4 @@
+// 2. Write a Java program to take two floating-point numbers from the command line and print their sum, difference, product, quotient, and modulus.
 public class pr2_2 {
     public static void main(String[] args) {
         double num1 = Double.parseDouble(args[0]);
