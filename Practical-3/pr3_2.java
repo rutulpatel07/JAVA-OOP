@@ -1,4 +1,4 @@
-// . Write a Java program to create two 2D arrays and find their transpose.
+// 2. Write a Java program to create two 2D arrays and find their transpose.
 import java.util.Scanner;
 
 public class pr3_2 {

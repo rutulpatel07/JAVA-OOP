@@ -1,12 +1,13 @@
+// 1. Write a Java program to accept n numbers from the user, store them in an array, and find the sum and average of the elements.
 import java.util.Scanner;
 
 public class pr3_1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
         // Get the number of elements from user
         System.out.print("Enter the number of elements: ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
         
         // Create array to store n numbers
         int[] numbers = new int[n];
@@ -15,7 +16,7 @@ public class pr3_1 {
         System.out.println("Enter " + n + " numbers:");
         for (int i = 0; i < n; i++) {
             System.out.print("Element " + (i + 1) + ": ");
-            numbers[i] = scanner.nextInt();
+            numbers[i] = sc.nextInt();
         }
         
         // Calculate sum
@@ -27,19 +28,10 @@ public class pr3_1 {
         // Calculate average
         double average = (double) sum / n;
         
-        // Display the array elements
-        System.out.print("\nArray elements: ");
-        for (int i = 0; i < n; i++) {
-            System.out.print(numbers[i]);
-            if (i < n - 1) {
-                System.out.print(", ");
-            }
-        }
-        
         // Display results
         System.out.println("\n\nSum of elements: " + sum);
         System.out.println("Average of elements: " + average);
         
-        scanner.close();
+        sc.close();
     }
 }

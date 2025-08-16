@@ -1,4 +1,4 @@
-// Write a Java program to find the second largest element in an array.
+// 3.Write a Java program to find the second largest element in an array.
 import java.util.Scanner;
 
 public class pr3_3 {
@@ -8,13 +8,7 @@ public class pr3_3 {
         // Get the size of array from user
         System.out.print("Enter the number of elements in array: ");
         int n = scanner.nextInt();
-        
-        // Validate array size
-        if (n < 2) {
-            System.out.println("Array must have at least 2 elements to find second largest!");
-            return 0;
-        }
-        
+
         // Create array
         int[] array = new int[n];
         
